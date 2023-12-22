@@ -1,12 +1,7 @@
-const options = { port, host }
+const options = { port, host };
+const socketClient = io.conenct(options);
 
+// error handlers ...
+// other handler (i.g. reconnection) ...
 
-
-const socketClient = io.conenct(options)
-
-// error handler
-
-// reconnection handler
-
-export default socketClient
-
+export default socketClient;

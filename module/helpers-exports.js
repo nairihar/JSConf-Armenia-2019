@@ -1,13 +1,13 @@
-const arr = 
+const privateList = [];
 
 exports.wait = (timeout) => new Promise((r) => {
-    setTimeout(r, timeout)
-})
+    setTimeout(r, timeout);
+});
 
 exports.find = function () {
     // ...
-}
+};
 
 exports.each = function () {
     // ...
-}
+};
