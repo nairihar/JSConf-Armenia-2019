@@ -9,4 +9,4 @@ function createUser(name) {
 }
 
 
-const aBuetifulUser = new User('Anna')
+const myUser = new createUser('Sara')
